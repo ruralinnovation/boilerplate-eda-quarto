@@ -1,5 +1,5 @@
 ---
-title: "Add intro title here"
+title: "Intro here"
 ---
 
 This is a boilerplate for CORI EDA works: 
@@ -8,4 +8,13 @@ If you want to start a small project and have a boilerplate quarto website for i
 
 ![](use_template.png)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Amazing ressources about Quarto websites can be find here: <https://quarto.org/docs/websites>.
+
+## R
+
+The [GitHub Action](https://github.com/ruralinnovation/boilerplate-eda-quarto/blob/main/.github/workflows/publish.yml) that is publishing the content of this web site is set up to run on:
+
+- the lastet Ubuntu 
+- add quarto
+- add R (4.4.1) with tidyverse packages 
+
