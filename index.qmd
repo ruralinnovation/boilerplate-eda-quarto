@@ -1,7 +1,11 @@
 ---
-title: "."
+title: "Add intro title here"
 ---
 
-This is a Quarto website.
+This is a boilerplate for CORI EDA works: 
+
+If you want to start a small project and have a boilerplate quarto website for it you can go on the [source](https://github.com/ruralinnovation/boilerplate-eda-quarto) of thise website  and use the green button "Use this template" (pick "Create a new repository") and then follow classic GH workflows. 
+
+![](use_template.png)
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
