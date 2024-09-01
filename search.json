@@ -2,9 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Add intro title here",
+    "title": "Intro here",
     "section": "",
-    "text": "This is a boilerplate for CORI EDA works:\nIf you want to start a small project and have a boilerplate quarto website for it you can go on the source of thise website and use the green button “Use this template” (pick “Create a new repository”) and then follow classic GH workflows.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a boilerplate for CORI EDA works:\nIf you want to start a small project and have a boilerplate quarto website for it you can go on the source of thise website and use the green button “Use this template” (pick “Create a new repository”) and then follow classic GH workflows.\nAmazing ressources about Quarto websites can be find here: https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#r",
+    "href": "index.html#r",
+    "title": "Intro here",
+    "section": "R",
+    "text": "R\nThe GitHub Action that is publishing the content of this web site is set up to run on:\n\nthe lastet Ubuntu\nadd quarto\nadd R (4.4.1) with tidyverse packages"
   },
   {
     "objectID": "about.html",

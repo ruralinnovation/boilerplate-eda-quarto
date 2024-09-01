@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Add intro title here – my title</title>
+<title>Intro here – my title</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,15 +108,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#r" id="toc-r" class="nav-link active" data-scroll-target="#r">R</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Add intro title here</h1>
+<h1 class="title">Intro here</h1>
 </div>
 
 
@@ -136,9 +142,18 @@ ul.task-list li input[type="checkbox"] {
 <p>This is a boilerplate for CORI EDA works:</p>
 <p>If you want to start a small project and have a boilerplate quarto website for it you can go on the <a href="https://github.com/ruralinnovation/boilerplate-eda-quarto">source</a> of thise website and use the green button “Use this template” (pick “Create a new repository”) and then follow classic GH workflows.</p>
 <p><img src="use_template.png" class="img-fluid"></p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>Amazing ressources about Quarto websites can be find here: <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<p>The <a href="https://github.com/ruralinnovation/boilerplate-eda-quarto/blob/main/.github/workflows/publish.yml">GitHub Action</a> that is publishing the content of this web site is set up to run on:</p>
+<ul>
+<li>the lastet Ubuntu</li>
+<li>add quarto</li>
+<li>add R (4.4.1) with tidyverse packages</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
